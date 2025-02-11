@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <iostream>
-int main(){
+
+int main() {
 char a;
 std::cin >> a;
 std::cout << "Hello World." << std::endl;

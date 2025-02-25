@@ -5,7 +5,7 @@ int main() {
         std::cout << "Ingrese un número entero: ";
         std::cin >> a[i];
     }
-    int suma = 0;./
+    int suma = 0;
     for (int i = 0; i < 5; i++){
         suma += a[i];
     }

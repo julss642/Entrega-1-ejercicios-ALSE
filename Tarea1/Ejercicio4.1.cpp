@@ -1,11 +1,11 @@
 #include <iostream>
 int main() {
     int a[5];
-    std::cout << "Ingrese un número entero: ";
     for (int i = 0; i < 5; i++){
+        std::cout << "Ingrese un número entero: ";
         std::cin >> a[i];
     }
-    int suma = 0;
+    int suma = 0;./
     for (int i = 0; i < 5; i++){
         suma += a[i];
     }

@@ -1,10 +1,11 @@
 #include <iostream>
+
 using namespace std;
 
-int suma(int a, int b) {
+float suma(int a, int b) {
     return a + b;
 }
-int resta(int a, int b) {
+float resta(int a, int b) {
     return a - b;
 }
 float multiplicacion(int a, int b) {
@@ -12,6 +13,12 @@ float multiplicacion(int a, int b) {
 }
 float division(int a, int b) {
     return a / b;
+}
+
+typedef float (*CallbackFuntion)(int, int);
+
+float ejecutarCallback(CallbackFuntion funcion, int a, int b) {
+    return funcion(a, b);
 }
 
 int main(int argc, char const *argv[]) {
@@ -35,19 +42,26 @@ int main(int argc, char const *argv[]) {
         cout << "Ingrese a y b como numeros enteros y operacion como un caracter" << endl;
         return 1;
     }
-    
+    CallbackFuntion funcion = nullptr;
+    string nombreFuncion[2] = {"", ""};
     switch (operacion)
     {
     case '+':
-        cout << "La suma de " << a << " + " << b << " es: " << suma(a, b) << endl;
+        funcion = suma;
+        nombreFuncion[0] = "suma";
+        nombreFuncion[1] = "+";
         break;
     
     case '-':
-        cout << "La resta de " << a << " - " << b << " es: " << resta(a, b) << endl;
+        funcion = resta;
+        nombreFuncion[0] = "resta";
+        nombreFuncion[1] = "-";
         break;
     
     case '*':
-        cout << "La multiplicacion de " << a << " * " << b << " es: " << multiplicacion(a, b) << endl;
+        funcion = multiplicacion;
+        nombreFuncion[0] = "multiplicacion";
+        nombreFuncion[1] = "*";
         break;
 
     case '/':
@@ -55,7 +69,9 @@ int main(int argc, char const *argv[]) {
             cout << "No se puede dividir por 0" << endl;
             return 1;
         }
-        cout << "La division de " << a << " / " << b << " es: " << division(a, b) << endl;
+        funcion = division;
+        nombreFuncion[0] = "division";
+        nombreFuncion[1] = "/";
         break;
 
     default:
@@ -63,6 +79,6 @@ int main(int argc, char const *argv[]) {
         return 1;
         break;
     }
-
+    cout << "La " << nombreFuncion[0] << " de " << a << " "<< nombreFuncion[1] << " " << b << " es: " << ejecutarCallback(funcion,a,b) << endl;
     return 0;
 }

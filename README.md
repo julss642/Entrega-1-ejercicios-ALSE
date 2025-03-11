@@ -9,7 +9,7 @@
 - **Tarea2 ->** [Tarea2](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Tarea2)
     - **Tarea1.1 ->** [Tarea1.1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea2/Ejercicio1.1.cpp)
 ---------------------------------------------------------------------------------------------------
-- **Parcial1 ->** [Parcial1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Parcial1)
+- **Parcial1 ->** [Punto4](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Parcial1)
 ---------------------------------------------------------------------------------------------------
 - **Tarea3 ->** [Tarea3](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Tarea3)
     - **Calculadora ->** [Calculadora](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea3/Calculadora.cpp)

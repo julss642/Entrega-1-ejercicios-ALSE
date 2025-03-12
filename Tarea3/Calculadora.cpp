@@ -1,6 +1,6 @@
 #include <iostream>
-#include <stdexcept> // Para std::invalid_argument
-#include <cstdlib>   // Para std::stod
+#include <stdexcept> 
+#include <cstdlib>   
 using namespace std;
 
 // Función para sumar dos números

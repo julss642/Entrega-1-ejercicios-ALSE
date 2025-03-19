@@ -14,5 +14,5 @@
 ---------------------------------------------------------------------------------------------------
 - **Parcial 1 ->** [Punto 4](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Parcial1)
 ---------------------------------------------------------------------------------------------------
-- **Ejercicios LeetCode** [LeetCode](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/LeetCode)
-    - **Two Sum** [Two Sum](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/LeetCode/TwoSum.cpp)
+- **Ejercicios LeetCode ->** [LeetCode](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/LeetCode)
+    - **Two Sum ->** [Two Sum](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/LeetCode/TwoSum.cpp)

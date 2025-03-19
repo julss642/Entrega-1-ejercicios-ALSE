@@ -1,5 +1,4 @@
 # Leydi Juliana Solorza Gonzalez
-------------------------------------------------------------------------------------------------
 - **Tarea 1 ->** [Tarea 1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Tarea1)
     - **Ejercicio 2.2 ->** [Ejercicio 2.2](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio2.2.cpp)
     - **Ejerciicio 4.1 ->** [Ejercicio 4.1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio4.1.cpp)

@@ -16,4 +16,4 @@
 ---------------------------------------------------------------------------------------------------
 - **Ejercicios LeetCode**
     - *Two Sum ->* [Two Sum](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/LeetCode/TwoSum.cpp)
-    - *Add Strings ->* [Add Strings] ()
+    - *Add Strings ->* [Add Strings](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/LeetCode/AddStrings.cpp)

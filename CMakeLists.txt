@@ -7,7 +7,6 @@ project(Proyecto)
 
 add_subdirectory(LeetCode) 
 # Agrega el subdirectorio "LeetCode" al proyecto. 
-# Esto permite compilar y vincular cualquier archivo CMake dentro de esa carpeta.
 
 add_subdirectory(Parcial1) 
 # Agrega el subdirectorio "Parcial1" al proyecto.
@@ -21,3 +20,8 @@ add_subdirectory(Tarea2)
 add_subdirectory(Tarea3) 
 # Agrega el subdirectorio "Tarea3" al proyecto.
 
+add_subdirectory(ClasePoint2d) 
+# Agrega el subdirectorio "ClasePoint2d" al proyecto. 
+
+add_subdirectory(EjercicioUML) 
+# Agrega el subdirectorio "EjercicioUML" al proyecto. 

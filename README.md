@@ -2,7 +2,7 @@
 - **Tarea 1** 
     - **Ejercicios Obligatorios**
         - *Ejercicio 2.2 ->* [Ejercicio 2.2](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio2.cpp)
-        - *Ejercicio 4.1 ->* [Ejercicio 4.1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio4.1.cpp)
+        - *Ejercicio 4.1 ->* [Ejercicio 4.1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio4.cpp)
         - *Ejercicio 9 ->* [Ejercicio 9](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio9.cpp)
 
     - **Ejercicios Opcionales**

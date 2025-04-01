@@ -13,3 +13,6 @@ add_executable(Ejercicio4 Ejercicio4.cpp)
 
 add_executable(Ejercicio9 Ejercicio9.cpp)
 # Crea un ejecutable llamado "Ejercicio9" a partir del archivo fuente "Ejercicio9.cpp".
+
+add_executable(Ejercicio1 Ejercicio1.cpp)
+# Crea un ejecutable llamado "Ejercicio1" a partir del archivo fuente "Ejercicio1.cpp".

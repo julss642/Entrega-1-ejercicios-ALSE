@@ -6,10 +6,10 @@
         - *Ejercicio 9 ->* [Ejercicio 9](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio9.cpp)
 
     - **Ejercicios Opcionales**
-        - *Ejercicio 1.1 ->* [Tarea 1.1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea2/Ejercicio1.1.cpp)
+        - *Ejercicio 1.1 ->* [Tarea 1.1](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea1/Ejercicio1.cpp)
 -----------------------------------------------------------------------------------------------------
 - **Tarea 2** 
-    - *Calculadora ->* [Calculadora](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea3/Calculadora.cpp)
+    - *Calculadora ->* [Calculadora](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea2/Calculadora.cpp)
 ---------------------------------------------------------------------------------------------------
 - **Parcial 1** 
     - *Punto 4 ->* [Punto 4](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Parcial1)

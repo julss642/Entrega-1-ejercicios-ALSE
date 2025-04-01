@@ -12,7 +12,7 @@
     - *Calculadora ->* [Calculadora](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Tarea2/Calculadora.cpp)
 ---------------------------------------------------------------------------------------------------
 - **Parcial 1** 
-    - *Punto 4 ->* [Punto 4](https://github.com/julss642/Entrega-1-ejercicios-ALSE/tree/main/Parcial1)
+    - *Punto 4 ->* [Punto 4](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/Parcial1/Parcial4.cpp)
 ---------------------------------------------------------------------------------------------------
 - **Ejercicios LeetCode**
     - *Two Sum ->* [Two Sum](https://github.com/julss642/Entrega-1-ejercicios-ALSE/blob/main/LeetCode/TwoSum.cpp)

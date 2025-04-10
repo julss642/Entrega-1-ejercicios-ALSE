@@ -6,62 +6,62 @@ using namespace std;
 
 class MyHashSet {
     private:
-        // Define the size of the hash set
+        // Definir el tamaño del conjunto hash
         static const int SIZE = 1000;
         
-        // Define the hash table
+        // Definir la tabla hash
         vector<list<int>> table;
         
-        // Hash function to map a key to an index
+        // Función hash para mapear una clave a un índice
         int hash(int key) {
             return key % SIZE;
         }
 
     public:
         MyHashSet() {
-            // Initialize the hash table with empty lists
+            // Inicializar la tabla hash con listas vacías
             table.resize(SIZE);
         }
         
         void add(int key) {
             if (contains(key)) {
-                return; // Key already exists, no need to add
+                return; // La clave ya existe, no es necesario agregarla
             }
-            int index = hash(key); // Get the index for the key
-            table[index].push_back(key); // Add the key to the list at that index
+            int index = hash(key); // Obtener el índice para la clave
+            table[index].push_back(key); // Agregar la clave a la lista en ese índice
         }
         
         void remove(int key) {
             if (!contains(key)) {
-                return; // Key does not exist, no need to remove
+                return; // La clave no existe, no es necesario eliminarla
             }
-            int index = hash(key); // Get the index for the key
-            auto& bucket = table[index]; // Get the list at that index
-            // Find the key in the list and remove it
+            int index = hash(key); // Obtener el índice para la clave
+            auto& bucket = table[index]; // Obtener la lista en ese índice
+            // Buscar la clave en la lista y eliminarla
             for (auto it = bucket.begin(); it != bucket.end(); ++it) {
                 if (*it == key) {
-                    bucket.erase(it); // Remove the key from the list
-                    return; // Exit after removing
+                    bucket.erase(it); // Eliminar la clave de la lista
+                    return; // Salir después de eliminar
                 }
             }
             
         }
         
         bool contains(int key) {
-            int index = hash(key); // Get the index for the key
-            auto& bucket = table[index]; // Get the list at that index
-            // Check if the key exists in the list
+            int index = hash(key); // Obtener el índice para la clave
+            auto& bucket = table[index]; // Obtener la lista en ese índice
+            // Verificar si la clave existe en la lista
             for (const int& k : bucket) {
                 if (k == key) {
-                    return true; // Key found
+                    return true; // Clave encontrada
                 }
             }
-            return false; // Key not found
+            return false; // Clave no encontrada
         }
     };
     
     /**
-     * Your MyHashSet object will be instantiated and called as such:
+     * Tu objeto MyHashSet será instanciado y llamado de la siguiente manera:
      * MyHashSet* obj = new MyHashSet();
      * obj->add(key);
      * obj->remove(key);

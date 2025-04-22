@@ -13,3 +13,6 @@ add_executable(Sudoku Sudoku.cpp)
 
 add_executable(TwoSum TwoSum.cpp)
 # Crea un ejecutable llamado "TwoSum" a partir del archivo fuente "TwoSum.cpp".
+
+add_executable(DesignTwitter DesignTwitter.cpp)
+# Crea un ejecutable llamado "DesignTwitter" a partir del archivo fuente "DesignTwitter.cpp".

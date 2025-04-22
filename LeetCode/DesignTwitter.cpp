@@ -1,3 +1,4 @@
+#include <iostream>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
@@ -59,3 +60,45 @@ public:
             following[followerId].erase(followeeId); // Elimina el followeeId del conjunto de usuarios seguidos por followerId.
     }
 };
+
+int main() {
+    Twitter twitter;
+
+    // Usuario 1 publica un tweet con ID 5
+    twitter.postTweet(1, 5);
+
+    // Usuario 1 obtiene su feed de noticias
+    vector<int> feed = twitter.getNewsFeed(1);
+    cout << "Feed de Usuario 1: ";
+    for (int tweet : feed) {
+        cout << tweet << " ";
+    }
+    cout << endl;
+
+    // Usuario 1 sigue al Usuario 2
+    twitter.follow(1, 2);
+
+    // Usuario 2 publica un tweet con ID 6
+    twitter.postTweet(2, 6);
+
+    // Usuario 1 obtiene su feed de noticias nuevamente
+    feed = twitter.getNewsFeed(1);
+    cout << "Feed de Usuario 1 después de seguir al Usuario 2: ";
+    for (int tweet : feed) {
+        cout << tweet << " ";
+    }
+    cout << endl;
+
+    // Usuario 1 deja de seguir al Usuario 2
+    twitter.unfollow(1, 2);
+
+    // Usuario 1 obtiene su feed de noticias nuevamente
+    feed = twitter.getNewsFeed(1);
+    cout << "Feed de Usuario 1 después de dejar de seguir al Usuario 2: ";
+    for (int tweet : feed) {
+        cout << tweet << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
